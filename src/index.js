@@ -48,7 +48,7 @@ app.get('/users', async function(req, res) {
 app.listen(4900, async () => {
     try{
         await connect();
-        console.log("listening on port 5000")
+        console.log("listening on port 4900")
     }
     catch(err){
         console.log(err.message);
